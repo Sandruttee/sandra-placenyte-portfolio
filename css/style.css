@@ -113,3 +113,26 @@ p {
 .press:hover {
   color: var(--hover-color);
 }
+.captions-p {
+  text-align: left;
+}
+
+@media (max-width: 500px) {
+  .phone-fix {
+    display: none;
+  }
+
+  .captions-p {
+    text-align: center;
+  }
+  .press {
+    display: block;
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+}
